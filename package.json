@@ -1,0 +1,22 @@
+{
+  "name": "reimagined-backup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sankshitpandoh/Reimagined-Backup.git"
+  },
+  "author": "Sankshit Pandoh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sankshitpandoh/Reimagined-Backup/issues"
+  },
+  "homepage": "https://github.com/sankshitpandoh/Reimagined-Backup#readme",
+  "dependencies": {
+    "shelljs": "^0.8.4"
+  }
+}

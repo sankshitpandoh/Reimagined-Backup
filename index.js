@@ -24,7 +24,7 @@ let folderName = getDate();
 shell.cd(`/home/${userProfile}`);
 shell.exec("pwd && ls");
 console.log(folderName)
-shell.exec(`zip -r ${folderName}.zip * -x "*backupRepo*" -x "*.*" -x "*snap*" -x node_modules/\*`);
+shell.exec(`zip -r ${folderName}.zip * -x "*backupRepo*" -x "*Videos*" -x "*.*" -x "*snap*" -x node_modules/\*`);
 shell.exec(`mv ${folderName}.zip backupRepo`);
 
 sendToRemote();
